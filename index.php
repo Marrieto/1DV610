@@ -14,3 +14,6 @@ $buttons = new ButtonView();
 
 $lv->render($buttons->render());
 
+var_dump($_GET);
+
+var_dump($_POST);

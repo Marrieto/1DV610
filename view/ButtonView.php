@@ -16,12 +16,11 @@ class ButtonView {
     $returnString = '';
     for ($i = 0; $i < count($alphabet); $i++) {
 
-        $alphabetString = '<button>' . $alphabet[$i] . '  </button>';
+        $alphabetString = '<input name="character" type="submit" value="' . $alphabet[$i] . '">  </input>';
         $returnString .= $alphabetString;
     }
 
-    echo $returnString;
-    //echo '<button>' . . '  </button>';
+    return $returnString;
   }
 
 }
