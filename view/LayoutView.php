@@ -19,7 +19,7 @@ class LayoutView {
           <h1>Workshop 1</h1>
           
           <div class="container">
-              <form action="index.php" method="get">
+              <form action="HangmanView.php" method="get">
               ' . $buttons . '
               </form>
           </div> 

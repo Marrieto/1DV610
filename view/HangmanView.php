@@ -5,6 +5,10 @@
     One render function to render everything to
      ther client in the beginning
   */
-  public function render($buttons) {
+class HangmanView {
+}
+//   public function render($buttons) {
 
-  }
+//   }
+
+var_dump($_GET);
